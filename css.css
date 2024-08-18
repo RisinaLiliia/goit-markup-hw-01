@@ -1,0 +1,146 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo  {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo-web {
+    color: #3B82F6;
+    /* Синий цвет для "WEB" */
+}
+
+.logo-studio {
+    color: #333;
+    /* Черный цвет для "STUDIO" */
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .contact-info {
+    display: flex;
+    align-items: center;
+}
+
+header .contact-info span {
+    margin-right: 20px;
+    color: #555;
+}
+
+.hero {
+    background-color: #333557;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #4A67FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.service {
+    max-width: 200px;
+    text-align: center;
+}
+
+.service h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #555;
+}
+
+.team {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.team h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #777;
+}
+
+footer {
+    background-color: #333557;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
